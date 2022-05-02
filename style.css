@@ -1,0 +1,13 @@
+#logo {
+  background: url(img/logo.png) no-repeat center center;
+  background-size: cover;
+  width: 57px
+}
+
+.blur {
+   color: transparent;
+   text-shadow: 0 0 5px white;
+}
+.blur:hover {
+  text-shadow: 0 0 0 white
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VMAnarchy (сайт)</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
+  <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/darkly/bulmaswatch.min.css">
+  <script src="script.js"></script>
+  <meta charset="utf-8">
+  <meta name="author" content="AppData">
+  <meta name="description" content="VMAnarchy — место  с списком виртуальных машин к которым ты можешь подключиться через удалённый доступ и делать всё, что захочешь. Анархия!">
+  <meta name="keywords" content="anarchy, vm, анархия, вм, виртуальные машины, discord сервер, дискорд, дс, мониторинг дискорд серверов, сервер, anydesk, энидеск, анидеск, энидекс">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/wc-discord-message@^2.0.0/dist/wc-discord-message/wc-discord-message.js"></script>
+</head>
+<body>
+  <section class="hero is-link">
+    <div class="hero-body">
+      <div class="columns">
+        <div class="column is-four-fifths">
+          <p class="title">Добро пожаловать в VMAnarchy!</p>
+          <p class="subtitle">
+            VMAnarchy — место (в основном Discord сервер), где можно использовать виртуальные машины с помощью программ для удалённого доступа. Или 2b2t, но с виртуальными машинами.
+          </p>
+        </div>
+        <div class="column">
+          <figure class="image">
+            <img src="img/logoFull.png" class="">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section class="hero is-primary has-text-right">
+    <div class="hero-body">
+      <div class="columns">
+        <div class="column is-one-quarter">
+          <figure class="image">
+            <img src="img/vmList.png" id="vmList">
+          </figure>
+        </div>
+        <div class="column">
+          <p class="title">Список виртуальных машин</p>
+          <p class="subtitle">У нас есть более девяти виртуальных машин (далее — «серверов»), к которым ты можешь подключиться через удалённый доступ и делать всё, что захочешь там. Анархия!</p>
+          <a href="list.html" class="button is-link">Список серверов</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section class="hero is-info">
+    <div class="hero-body">
+      <div class="columns">
+        <div class="column">
+          <p class="title">Discord сообщество</p>
+          <p class="subtitle">
+            У нас есть также Discord сервер с очень дружелюбным сообществом! Мы на самом деле в основном Discord сервер.
+          </p>
+          <iframe src="https://canary.discord.com/widget?id=919570610986811402&theme=dark" width="400" height="250" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+        <div class="column is-three-fifths">
+          <discord-messages>
+        		<discord-message author="Бабиджон228" avatar="https://cdn.discordapp.com/embed/avatars/4.png" role-color="#25c059">
+        			Привет всем! Как у кого дела?
+        		</discord-message>
+            <discord-message author="CaXaPoK" avatar="https://media.discordapp.net/attachments/919570613281103893/970028433558102026/44_20220407233530.png" role-color="#3498db">
+              Да иди ты н<span class="blur">аху</span>й
+        		</discord-message>
+            <discord-message author="Lynx" avatar="https://cdn.discordapp.com/avatars/723971496107573328/eac9c62499465e4bd72cf30a879c646d.png" role-color="#da0047">
+              j!пред <discord-mention>CaXaPoK</discord-mention> Сам пошёл н<span class="blur">аху</span>й
+            </discord-message>
+        	</discord-messages>
+          <br><p>(шутка™)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section class="hero is-dark" id="networks">
+    <div class="hero-body">
+      <p class="title">Заинтерисован?</p>
+      <p class="subtitle">Смело заходи в наш проект, используя соц. сети ниже:</p>
+      <progress class="progress is-medium is-dark" max="100"></progress>
+      <div class="buttons"></div>
+    </div>
+  </section>
+</body>
+</html>
