@@ -15,3 +15,7 @@
 #vmList {
   border-radius: 19px
 }
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
