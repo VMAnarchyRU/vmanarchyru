@@ -1,2 +1,2 @@
-# vmanarchyru.github.io
-VMAnarchy Website.
+# Сайт VMAnarchy
+Веб-сайт для проекта VMAnarchy. Ещё в разработке.
