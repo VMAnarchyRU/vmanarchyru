@@ -1,13 +1,50 @@
 {
-  "discord": "http://discord.gg/qk8TJDdJV3",
-  "telegram": "http://t.me/VMAnarchy",
-  "youtube": "https://www.youtube.com/channel/UCM9J-YbLWhX2NXlRXoWiBgw",
-  "escargot": "https://gist.github.com/gohoski/13222a4f55ac02a260c9430e35bee8aa",
-  "guilded": "https://www.guilded.gg/i/2OOQ8LZ2",
-  "fandom": "http://vmanarchy.fandom.com/wiki",
-  "github": "http://github.com/VMAnarchyRU",
-  "odnoklassniki": "https://ok.ru/group/64251002224868",
-  "kumospace": "https://www.kumospace.com/vmanarchy",
-  "skype": "https://join.skype.com/HCqwgMzIsVE4",
-  "icqNew": "https://icq.im/AoLNlukNPwK4CrK2HSE"
+  "discord": {
+    "url": "http://discord.gg/qk8TJDdJV3",
+    "active": true
+  },
+  "telegram": {
+    "url": "http://t.me/VMAnarchy",
+    "active": true
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/channel/UCM9J-YbLWhX2NXlRXoWiBgw",
+    "active": true
+  },
+  "escargot": {
+    "url": "https://gist.github.com/gohoski/13222a4f55ac02a260c9430e35bee8aa",
+    "active": false
+  },
+  "guilded": {
+    "url": "https://www.guilded.gg/i/2OOQ8LZ2",
+    "active": false
+  },
+  "fandom": {
+    "url": "http://vmanarchy.fandom.com/wiki",
+    "active": false
+  },
+  "github": {
+    "url": "http://github.com/VMAnarchyRU",
+    "active": true
+  },
+  "odnoklassniki": {
+    "url": "https://ok.ru/group/64251002224868",
+    "active": false
+  },
+  "kumospace": {
+    "url": "https://www.kumospace.com/vmanarchy",
+    "active": false
+  },
+  "skype": {
+    "url": "https://join.skype.com/HCqwgMzIsVE4",
+    "active": false
+  },
+  "icqNew": {
+    "url": "https://icq.im/AoLNlukNPwK4CrK2HSE",
+    "active": false
+  },
+  "yandexMessenger": {
+    "url": "https://yandex.ru/chat#/join/0bc914bc-0501-4141-a58a-ea55d4a663c0",
+    "active": false
+  }
 }

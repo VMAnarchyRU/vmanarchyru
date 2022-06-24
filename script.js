@@ -68,8 +68,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     let buttons = document.querySelector('div.buttons');
     for (let i = 0; i < keys.length; i++) {
       let button = document.createElement('a');
-      button.className = 'button is-primary';
-      button.href = values[i];
+      if (values[i].active)
+        button.className = 'button is-primary';
+      else
+        button.className = 'button';
+      button.href = values[i].url;
       button.setAttribute('target', '_blank');
       let fimg = document.createElement('figure');
       fimg.className = 'image is-32x32 is-inline-block';
